@@ -77,7 +77,7 @@ if exists("did_typescript_hilink")
   HiLink typescriptDefault              typescriptCase
   HiLink typescriptBranch               Conditional
   HiLink typescriptIdentifier           Structure
-  HiLink typescriptVariable             Identifier
+  HiLink typescriptVariable             StorageClass 
   HiLink typescriptEnumKeyword          Identifier
   HiLink typescriptRepeat               Repeat
   HiLink typescriptForOperator          Repeat
@@ -94,9 +94,9 @@ if exists("did_typescript_hilink")
   HiLink typescriptObjectLabel          typescriptLabel
   HiLink typescriptLabel                Label
   HiLink typescriptStringProperty       String
-  HiLink typescriptImport               Special
+  HiLink typescriptImport               Include 
   HiLink typescriptAmbientDeclaration   Special
-  HiLink typescriptExport               Special
+  HiLink typescriptExport               Include 
   HiLink typescriptModule               Special
   HiLink typescriptTry                  Special
   HiLink typescriptExceptions           Special
